@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Scanner</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        video {
+            width: 100%;
+            max-width: 600px;
+            border: 2px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <video id="qr-video"></video>
+
+    <!-- Local olarak eklenen instascan.min.js dosyası -->
+    <script src="./instascan/instascan.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const video = document.getElementById('qr-video');
+
+            function onScanSuccess(content) {
+                window.location.href = content;
+            }
+
+            const scanner = new Instascan.Scanner({ video: video });
+            scanner.addListener('scan', onScanSuccess);
+
+            Instascan.Camera.getCameras().then(cameras => {
+                if (cameras.length > 0) {
+                    scanner.start(cameras[0]);
+                } else {
+                    console.error('No cameras found.');
+                }
+            }).catch(err => console.error(err));
+        });
+    </script>
+</body>
+</html>

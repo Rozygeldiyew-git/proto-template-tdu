@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Mysal</title>
+
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="Porto - Responsive HTML5 Template">
+    <meta name="author" content="okler.net">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+    <style>
+        a {
+            color: rgb(0, 60, 0);
+            text-decoration: none;
+            border-color: 0;
+        }
+
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        a.red {
+            color: red;
+            text-decoration: none;
+            border-color: 0;
+        }
+
+        a.red:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        a.top:link {
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-family: verdana;
+            font-size: 11pt;
+        }
+
+        a.top:visited {
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-family: verdana;
+            font-size: 11pt;
+        }
+
+        a.top:hover {
+            color: #ee2222;
+            font-weight: bold;
+            font-family: verdana;
+            font-size: 11pt;
+        }
+
+        h1 {
+            margin-top: 5;
+            margin-bottom: 5;
+            text-align: center;
+            font-family: verdana, tahoma, arial;
+            font-size: 14pt;
+            color: #006600;
+            font-weight: normal;
+        }
+
+        h2 {
+            font-family: verdana, tahoma, arial;
+            font-size: 14pt;
+            color: #006600;
+            font-weight: normal;
+        }
+
+        h3 {
+            margin-top: 10;
+            margin-bottom: -20;
+            font-family: verdana, tahoma, arial;
+            font-size: 14pt;
+            color: #006600;
+            font-weight: normal;
+        }
+
+        h4 {
+            font-family: verdana, tahoma, arial;
+            font-size: 11pt;
+            color: #006600;
+            font-weight: bold;
+        }
+
+        hr {
+            color: #509050;
+            width: 100%;
+            height: 1px
+        }
+
+        input {
+            background-color: #f0fff0;
+            border: gray 1px solid;
+            font-family: verdana, tahoma;
+            font-size: 8pt
+        }
+
+        input.button {
+            background-color: #eeeeee;
+            border: gray 1px solid;
+            font-family: verdana, tahoma;
+            font-size: 8pt
+        }
+
+        select {
+            background-color: #f0fff0;
+            border: gray 1px solid;
+            font-family: verdana, tahoma;
+            font-size: 8pt
+        }
+
+        textarea {
+            background-color: #f0fff0;
+            border: gray 1px solid;
+            font-family: verdana, tahoma;
+            font-size: 8pt
+        }
+
+        .menu_title {
+            font-family: Tahoma;
+            font-size: 12px;
+            color: #0D2B01;
+            FONT-WEIGHT: bold;
+        }
+
+
+        .news {
+            color: #006600
+        }
+
+        .btext {
+            text-align: center;
+            font-family: verdana, tahoma, arial;
+            font-size: 8pt;
+            color: #001b44;
+            font-weight: bold;
+        }
+
+        .btext2 {
+            text-align: left;
+            font-family: verdana, tahoma, arial;
+            font-size: 8pt;
+            color: #001b44;
+            font-weight: bold;
+        }
+
+        .btext3 {
+            font-family: verdana, tahoma, Arial;
+            font-size: 8pt;
+            color: #001b44;
+        }
+
+        .menu {
+            color: #33a033;
+            font-size: 11pt;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .title {
+            color: rgb(0, 120, 0);
+            font-weight: bold;
+        }
+
+        .nomargin {
+            margin: 0 0 0 0
+        }
+
+        p.text {
+            text-indent: 30px;
+            text-align: justify;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        p.stext {
+            text-indent: 30px;
+            font-size: 10pt;
+            text-align: justify;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        img.point {
+            width: 5px;
+            height: 12px;
+            background-image: url(/images/1x1.gif);
+        }
+
+        .normal {
+            background-color: #FFFFFF;
+            border: 0 solid gray;
+            font-size: 12px;
+            font-family: Verdana, Tahoma;
+        }
+
+        .red {
+            color: red;
+        }
+
+        .green {
+            color: #008800;
+        }
+
+        .green2 {
+            color: #008800;
+        }
+
+        .gray {
+            background-color: #e8e8e8;
+        }
+
+        .lightgreen {
+            background-color: #ccffcc;
+        }
+
+        .white {
+            background-color: white;
+        }
+
+        .white2 {
+            background-color: white;
+            font-family: courier;
+        }
+
+        table.main {
+            background-color: #007700;
+            width: 100%;
+        }
+
+        th {
+            background-color: #0088cc;
+            color: white;
+            font-size: 12pt;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        tr.small {
+            font-size: 8pt;
+        }
+
+        td.green {
+            background-color: #9DBFB1
+        }
+
+        .img_topleft {
+            border: 0px;
+            background-image: url(/images/img_topleft.gif);
+            background-repeat: no-repeat;
+            width: 13px;
+            height: 13px;
+        }
+
+        .img_top {
+            border: 0px;
+            background-image: url(/images/img_top.gif);
+            background-repeat: repeat-x;
+            height: 13px;
+        }
+
+        .img_topright {
+            border: 0px;
+            background-image: url(/images/img_topright.gif);
+            background-repeat: no-repeat;
+            width: 13px;
+            height: 13px;
+        }
+
+        .img_left {
+            border: 0px;
+            background-image: url(/images/img_left.gif);
+            background-repeat: repeat-y;
+            width: 13px;
+        }
+
+        .img_right {
+            border: 0px;
+            background-image: url(/images/img_right.gif);
+            background-repeat: repeat-y;
+            width: 13px;
+        }
+
+        .img_bottomleft {
+            border: 0px;
+            background-image: url(/images/img_bottomleft.gif);
+            background-repeat: no-repeat;
+            width: 13px;
+            height: 13px;
+        }
+
+        .img_bottom {
+            border: 0px;
+            background-image: url(/images/img_bottom.gif);
+            background-repeat: repeat-x;
+            height: 13px;
+        }
+
+        .img_bottomright {
+            border: 0px;
+            background-image: url(/images/img_bottomright.gif);
+            background-repeat: no-repeat;
+            width: 13px;
+            height: 13px;
+        }
+
+        .img_bottomright_comment {
+            border: 0px;
+            background-image: url(/images/img_comment.gif);
+            background-repeat: no-repeat;
+            width: 13px;
+            height: 13px;
+        }
+
+        table.thumb {
+            border-collapse: collapse;
+            text-align: center;
+            margin: 10px;
+            padding: 0px;
+        }
+
+        a.my {
+            color: #999999;
+            font-size: 10;
+            text-decoration: none
+        }
+
+        a.my:visited {
+            color: #999999;
+            font-size: 10;
+            text-decoration: underline
+        }
+
+        a.my:hover {
+            color: #666666;
+            font-size: 10;
+            text-decoration: underline
+        }
+    </style>
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Web Fonts  -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light"
+        rel="stylesheet" type="text/css">
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/theme-elements.css">
+    <link rel="stylesheet" href="css/theme-blog.css">
+    <link rel="stylesheet" href="css/theme-shop.css">
+    <link rel="stylesheet" href="css/theme-animate.css">
+
+    <!-- Current Page CSS -->
+    <link rel="stylesheet" href="vendor/rs-plugin/css/settings.css" media="screen">
+    <link rel="stylesheet" href="vendor/rs-plugin/css/layers.css" media="screen">
+    <link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css" media="screen">
+    <link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css" media="screen">
+
+    <!-- Skin CSS -->
+    <link rel="stylesheet" href="css/skins/default.css">
+
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Head Libs -->
+    <script src="vendor/modernizr/modernizr.js"></script>
+
+
+
+</head>
+
+<body onload="takeTaskDiscreption(window.location.search)">
+    <div class="body">
+
+        <header class="UserYok" id="header"
+            data-plugin-options='{"stickyEnabled": true, "stickyEnableOnBoxed": true, "stickyEnableOnMobile": true, "stickyStartAt": 57, "stickySetTop": "-57px", "stickyChangeLogo": true}'>
+            <div class="header-body">
+                <div class="header-container container">
+                    <div class="header-row">
+                        <div class="header-column">
+                            <div class="header-logo">
+                                <a href="index.html">
+                                    <img alt="Porto" width="170" height="90" data-sticky-width="140"
+                                        data-sticky-height="70" data-sticky-top="33" src="./img/logo.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="header-column">
+                            <div class="header-row">
+
+                                <nav class="header-nav-top">
+                                    <ul class="nav nav-pills">
+                                        <li>
+                                            <a href="register.html"><i class="fa fa-angle-right"></i> Hasaba gir</a>
+                                        </li>
+                                        <li>
+                                            <div class="header-search" style="margin-top: 0">
+                                                <form id="searchForm" method="get">
+                                                    <div class="input-group">
+                                                        <input type="text" class="form-control" name="q" id="LoginGir"
+                                                            placeholder="Ulanyjy ady" required>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="header-search" style="margin-top: 0">
+                                                <form id="searchForm" method="get">
+                                                    <div class="input-group">
+                                                        <input type="password" class="form-control" name="q"
+                                                            id="ParolGir" placeholder="Parol" required>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <button onclick="UserOpen()" type="submit" style="height: 34px; background: #0088cc;    color: white;
+                                            border: 0px solid #ccc; border-radius: 5px;">Gir</button>
+                                        </li>
+                                    </ul>
+
+                                </nav>
+                            </div>
+                            <div class="header-row">
+                                <div class="header-nav">
+                                    <button class="btn header-btn-collapse-nav" data-toggle="collapse"
+                                        data-target=".header-nav-main">
+                                        <i class="fa fa-bars"></i>
+                                    </button>
+
+                                    <div
+                                        class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1 collapse">
+                                        <nav>
+                                            <ul class="nav nav-pills" id="mainNav">
+                                                <li class="dropdown ">
+                                                    <a href="index.html">
+                                                        Baş sahypa
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown dropdown-mega">
+                                                    <a href="#habarlar">
+                                                        Habarlar
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a href="allExample.html">
+                                                        Ähli mysallar
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a href="courses.html">
+                                                        Kitaplar
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a href="olipiada.html">
+                                                        Bäsleşikler
+                                                    </a>
+                                                </li>
+
+                                                <li class="dropdown">
+                                                    <a href="about-us.html">
+                                                        Biz barada
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a href="contact-us.html">
+                                                        Habarlaşmak
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <header class="UserBar" id="header"
+            data-plugin-options='{"stickyEnabled": true, "stickyEnableOnBoxed": true, "stickyEnableOnMobile": true, "stickyStartAt": 57, "stickySetTop": "-57px", "stickyChangeLogo": true}'>
+            <div class="header-body">
+                <div class="header-container container">
+                    <div class="header-row">
+                        <div class="header-column">
+                            <div class="header-logo">
+
+
+
+                                
+                                <a href="index.html">
+                                    <img alt="Porto" width="170" height="90" data-sticky-width="140"
+                                        data-sticky-height="70" data-sticky-top="33" src="./img/logo.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="header-column">
+                            <div class="header-row">
+
+                                <nav class="header-nav-top">
+                                    <ul class="nav nav-pills">
+                                        <li id="UserGet" style="font-size: 18px !important;">
+
+                                        </li>
+                                        <li>
+                                            <button onclick="LogOut()" type="submit" style="margin-left: 20px; height: 34px; background: #0088cc;    color: white;
+                                        border: 0px solid #ccc; border-radius: 5px;">Çykmak</button>
+                                        </li>
+                                    </ul>
+
+                                </nav>
+                            </div>
+                            <div class="header-row">
+                                <div class="header-nav">
+                                    <button class="btn header-btn-collapse-nav" data-toggle="collapse"
+                                        data-target=".header-nav-main">
+                                        <i class="fa fa-bars"></i>
+                                    </button>
+                                    <div
+                                        class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1 collapse">
+                                        <nav>
+                                            <ul class="nav nav-pills" id="mainNav">
+                                                <li class="dropdown">
+                                                    <a href="index.html">
+                                                        Baş sahypa
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown dropdown-mega">
+                                                    <a href="index.html#habarlar">
+                                                        Habarlar
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a href="allExample.html">
+                                                        Ähli mysallar
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a href="courses.html">
+                                                        Kitaplar
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a href="olipiada.html">
+                                                        Bäsleşikler
+                                                    </a>
+                                                </li>
+
+                                                <li class="dropdown">
+                                                    <a href="about-us.html">
+                                                        Biz barada
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a href="contact-us.html">
+                                                        Habarlaşmak
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div role="main" class="main">
+
+
+
+
+
+
+            <div class="container mainExample mt-xl" style="padding-top: 15px; border-top:1px solid rgb(220, 213, 213)">
+                <div class="row">
+
+                    <div id="ibersene"></div>
+
+                    <h4 style="color: #0088cc; padding-left: 10px; text-transform: none;">
+                        Jogaby ibermek
+                    </h4>
+                    <form enctype="multipart/form-data" method="post" class="nomargin">
+
+                        <a name="solution"></a>
+                        <table width="100%">
+                            <tbody>
+                                <tr class="btext">
+                                    <td align="left">Şu ýere çözülişini ýaz:</td>
+                                    <td align="right">Dil:
+                                        <select name="lang"
+                                            onchange="if(value=='PAS' || value=='DPR' || value=='PP') Editor.setOption('mode','text/x-pascal'); if(value=='CPP' || value=='CXX') Editor.setOption('mode','text/x-c++src'); if(value=='JAVA') Editor.setOption('mode','text/x-java');  if(value=='GO') Editor.setOption('mode','text/x-go'); if(value=='BAS') Editor.setOption('mode','text/x-vb'); if(value=='CS') Editor.setOption('mode','text/x-csharp'); if(value=='PY' || value=='PYPY') Editor.setOption('mode',{name:'python',version: 3});">
+                                            <option value="CPP">MinGW GNU C++ 10.3</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <textarea id="UserExampleGet" oninput="auto_grow(this)"
+                                        style="width:100%; resize: none; padding: 20px; color:black !important"></textarea>
+                                </tr>
+                                <tr class="btext">
+                                    <td align="left"><span id="sp1">Faýyly saýla:</span></td>
+                                    <td align="right">&nbsp;
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <input type="file" name="fname" id="fname" size="60">
+                        <input onclick="checkOut()" type="button" value="Ugrat" class="button "
+                            style="margin-top: 10px; color: white; padding: 10px 20px 10px 20px; border: none; border-radius: 5px; font-size: 18px; background:#0088cc">
+                    </form>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-ribbon">
+                        <span>Täzelikler</span>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="newsletter">
+                            <h4>Habarlaşmak</h4>
+                            <p>E-poçtaňyzy giriziň we habarlarymyza ýazylyň.</p>
+
+                            <div class="alert alert-success hidden" id="newsletterSuccess">
+                                <strong>Success!</strong> You've been added to our email list.
+                            </div>
+
+                            <div class="alert alert-danger hidden" id="newsletterError"></div>
+
+                            <form id="newsletterForm" action="php/newsletter-subscribe.php" method="POST">
+                                <div class="input-group">
+                                    <input class="form-control" placeholder="Email Address" name="newsletterEmail"
+                                        id="newsletterEmail" type="text">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="submit">Go!</button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="contact-details">
+                            <h4>Contact Us</h4>
+                            <ul class="contact">
+
+                                <li>
+                                    <p><i class="fa fa-phone"></i> <strong>Tel:</strong> (123) 456-789</p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-envelope"></i> <strong>Email:</strong> <a
+                                            href="mailto:mail@example.com">mail@example.com</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <a href="index.html" class="logo">
+                                <img alt="Porto Website Template" class="img-responsive" src="img/logo-footer.png">
+                            </a>
+                        </div>
+                        <div class="col-md-7">
+                            <p>© Copyright 2021. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <div class="loaderr">
+        <div class="loadingg">
+            <span class="spinner">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+
+        </div>
+    </div>
+    <!-- Vendor -->
+    <script src="vendor/jquery/jquery.js"></script>
+    <script src="vendor/jquery.appear/jquery.appear.js"></script>
+    <script src="vendor/jquery.easing/jquery.easing.js"></script>
+    <script src="vendor/jquery-cookie/jquery-cookie.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="vendor/common/common.js"></script>
+    <script src="vendor/jquery.validation/jquery.validation.js"></script>
+    <script src="vendor/jquery.stellar/jquery.stellar.js"></script>
+    <script src="vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.js"></script>
+    <script src="vendor/jquery.gmap/jquery.gmap.js"></script>
+    <script src="vendor/jquery.lazyload/jquery.lazyload.js"></script>
+    <script src="vendor/isotope/jquery.isotope.js"></script>
+    <script src="vendor/owl.carousel/owl.carousel.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.js"></script>
+    <script src="vendor/vide/vide.js"></script>
+
+    <!-- Theme Base, Components and Settings -->
+    <script src="js/theme.js"></script>
+
+    <!-- Current Page Vendor and Views -->
+    <script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="vendor/circle-flip-slideshow/js/jquery.flipshow.js"></script>
+    <script src="js/views/view.home.js"></script>
+
+    <!-- Theme Custom -->
+    <script src="js/custom.js"></script>
+
+    <!-- Theme Initialization Files -->
+    <script src="js/theme.init.js"></script>
+
+    <!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+			ga('create', 'UA-12345678-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+		 -->
+
+</body>
+
+</html>
